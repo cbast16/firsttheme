@@ -1,41 +1,23 @@
 <?php get_header(); ?>
-
-<div class="wrapper">
-    
-  <img src="wp-content/themes/firsttheme/img/shield.png" class="shield">
-        
-
-      <div class="sections">
-        
-        <div class="subSecs">  
-            <a href="favorites.html"><h2>Favorites</h2></a>
-            <p>
-                These are my favorite beers made by Sam Adams, Boston Brewing Co.
-            </p>
-        </div>
-          
-        <div class="subSecs">
-            <a href="seasonals.html"><h2>Current Seasonal Beers</h2></a>
-            <p>
-                Sam Adams offers multiple beers for every season, including a seasonal pack. 
-            </p>
-        </div>
-          
-        <div class="subSecs">
-            <a href="samandme.html"><h2>Sam and Me!</h2></a>
-            <p>
-                A collection of images of how I enjoy my Sam's!
-            </p>
-        </div>
+    <div class="template-description">
+        <h2>Index Template</h2>
+        <h5>This is the default template.</h5>
     </div>
+	<div class="row">
+		<div class="col-sm-8">
+
+			<?php 
+			if ( have_posts() ) : while ( have_posts() ) : the_post();
+  	
+				get_template_part( 'content', get_post_format() );
   
-</div>
-  
+			endwhile; endif; 
+			?>
 
+		</div> <!-- /.blog-main -->
 
+		<?php get_sidebar(); ?>
 
-
-
-
+	</div> <!-- /.row -->
 
 <?php get_footer(); ?>

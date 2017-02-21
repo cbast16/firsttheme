@@ -26,7 +26,7 @@
   </head>
     
       <body>
-
+<div id="wrapper">
     <div class="blog-masthead">
       <div class="container">
         <nav class="blog-nav">

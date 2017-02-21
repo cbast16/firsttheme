@@ -7,9 +7,13 @@ body html{
   color: #555;
     margin: 0;
     padding: 0;
+    height: 100%;
 }
 
-
+#wrapper {
+    position: relative;
+    min-height:100%;
+}
 
 .container {
      text-align: center;
@@ -113,9 +117,6 @@ nav .blog-nav ul {
 }
 */
 
-a {
-    color: white;
-}
 /*
  * Blog name and description
  */
