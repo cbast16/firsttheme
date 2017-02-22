@@ -4,15 +4,15 @@
 			
 		</div>
         
-		<div class="col-md-4 CurrentSeasonalImg">
+		<div class="col-md-4 CurrentFavoriteImg">
 			
 				<?php the_post_thumbnail( 'medium_large', array( 'class' => 'img-responsive seasonalImage' ) ); ?>
 			
 		</div>
 		
-		<div class="col-md-4 currentSeasonal">
+		<div class="col-md-4 currentFavorite">
 			<h3>
-                Samuel Adams Seasonal Beers
+                My Samuel Adams Favorite Beers
 			</h3>
 			<p><?php echo the_excerpt_max_charlength( 140 ) ?></p>
 		</div>

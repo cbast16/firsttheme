@@ -1,4 +1,4 @@
-<footer class="blog-footer">
+    <footer class="blog-footer">
       
       <p>
         <a href="#">Back to top</a>

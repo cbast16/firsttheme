@@ -30,7 +30,7 @@
     <div class="blog-masthead">
       <div class="container">
         <nav class="blog-nav">
-          <a class="blog-nav-item active" href="#">Home</a>
+<!--          <a class="blog-nav-item active" href="#">Home</a>-->
           <?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_class' => 'nav blog-nav' ) );?>
         </nav>
       </div>

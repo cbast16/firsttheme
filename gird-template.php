@@ -1,8 +1,8 @@
 <?php /* Template Name: Beer Template */ ?>
 <?php get_header(); ?>
     <div class="template-description">
-        <h2>Great Content</h2>
-        <h5>This is the default template.</h5>
+        
+        
     </div>
 	<div class="row">
 		
